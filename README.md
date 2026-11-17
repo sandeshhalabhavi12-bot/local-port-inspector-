@@ -23,7 +23,7 @@ if target.lower() not in ALLOWED_TARGETS and resolved_ip not in ALLOWED_TARGETS:
 ### 1. Installation
 Clone the repository and install the standard dependencies:
 ```bash
-git clone https://github.com/<your-username>/local-port-inspector.git
+git clone [https://github.com/sandeshhalabhavi12-bot/local-port-inspector-.git](https://github.com/sandeshhalabhavi12-bot/local-port-inspector-.git)
 cd local-port-inspector
 pip install -r requirements.txt
 ```
@@ -37,7 +37,7 @@ python mock_server.py
 ### 3. Executing the Inspector
 Run the inspection tool against your loopback scope to parse active services:
 ```bash
-python port_inspector.py --target 127.0.0.1 --ports 1-1000,8080
+python port_inspector.py --target 127.0.0.1 --ports 135,445,8080
 ```
 
 ## Execution Examples
@@ -67,7 +67,12 @@ $ python port_inspector.py --target example.com
 ```
 
 ## Screenshots
-*(Place interactive output logs or command line terminal captures here during your deployment cycle)*
+
+### Successful Local Diagnostic
+![Successful Local Diagnostic](<Screenshot 2026-11-17 112907.png>)
+
+### Guardrail Trigger Block
+![Guardrail Trigger Block](<Screenshot 2026-11-17 113006.png>)
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
