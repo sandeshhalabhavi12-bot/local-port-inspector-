@@ -74,5 +74,7 @@ $ python port_inspector.py --target example.com
 ### Guardrail Trigger Block
 ![Guardrail Trigger Block](<Screenshot 2026-11-17 113006.png>)
 
+### overall 
+![Successful Local Diagnostic](<2 out put.png>)
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
